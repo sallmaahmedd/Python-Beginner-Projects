@@ -7,6 +7,7 @@ filename="tasks.txt"
 
 """ Loading the existing tasks(if there's any) """
 tasks=[]
+
 if os.path.exists(filename):
     """ "r":opens the file in read mode, "with":automatically closes the file once the indented block finishes """
     with open(filename,"r") as file:
@@ -23,6 +24,9 @@ if os.path.exists(filename):
     (the variables between for and in, receiving new values for each iteration, so you can use them inside the loop body)
     receiving each whole pair as a tuple, it splits each pair into two separate named variables  """
 def view():
+    """ Empty list evaluates to False in boolean and non-empty is True """
+    if not tasks:
+                print("No Tasks Yet!")
     for index,task in enumerate(tasks, start=1):
         print(f"{index}.{task}")
 
@@ -39,11 +43,7 @@ while True:
 
 
     if choice=="view" or choice=="1" or choice=="1.view":
-        """ Empty list evaluates to False in boolean and non-empty is True """
-        if not tasks:
-            print("No Tasks Yet!")
-        else:
-            view()
+        view()
 
     elif choice in ("add","2.add","2"):
         new_task=input("Enter your task: ")
