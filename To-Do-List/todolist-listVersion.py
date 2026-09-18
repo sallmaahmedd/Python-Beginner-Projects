@@ -3,7 +3,6 @@
 #brings in Python's built-in module for operating-system related things
 import os
 
-
 filename="tasks.txt"
 
 """ Loading the existing tasks(if there's any) """
