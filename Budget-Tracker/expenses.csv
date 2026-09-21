@@ -1,0 +1,23 @@
+description,category,amount,date
+Groceries,Food,4150.0,2024-06-01
+Electricity Bill,Utilities,1075.0,2024-06-03
+Internet Bill,Utilities,450.0,2024-06-20
+Dining Out,Food,460.0,2024-06-15
+Movie Tickets,Entertainment,100.0,2024-06-10
+Gym Membership,Health,840.0,2024-06-06
+Car Maintenance,Transportation,200.0,2024-06-07
+Groceries,Food,5150.0,2024-07-01
+Electricity Bill,Utilities,2075.0,2024-07-03
+Internet Bill,Utilities,650.0,2024-07-20
+Movie Tickets,Entertainment,270.0,2024-07-10
+Gym Membership,Health,640.0,2024-07-06
+Car Maintenance,Transportation,300.0,2024-07-07
+Clothing,Shopping,2000.0,2024-07-24
+Groceries,Food,3150.0,2024-08-01
+Internet Bill,Utilities,550.0,2024-08-20
+Dining Out,Food,2560.0,2024-08-15
+Movie Tickets,Entertainment,400.0,2024-08-10
+Gym Membership,Health,840.0,2024-08-06
+Car Maintenance,Transportation,400.0,2024-08-07
+Clothing,Shopping,8000.0,2024-08-24
+clothing,shopping,2000.0,2026-09-21
